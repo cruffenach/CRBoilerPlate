@@ -182,7 +182,7 @@ NSString * pathForFileInDocuments(NSString *subdirectory, NSString *fileName) {
 
 @end
 
-@interface CALayer (CR)
+@implementation CALayer (CR)
 
 - (CGFloat)left {
     return self.frame.origin.x;
