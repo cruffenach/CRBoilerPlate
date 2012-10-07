@@ -53,6 +53,30 @@ NSString * pathForFileInDocuments(NSString *subdirectory, NSString *fileName);
 
 - (UIImage*)viewAsImage;
 
+@property (nonatomic) CGFloat left;
+@property (nonatomic) CGFloat top;
+@property (nonatomic) CGFloat right;
+@property (nonatomic) CGFloat bottom;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+
+@property (nonatomic) CGPoint origin;
+@property (nonatomic) CGSize size;
+
+@end
+
+@interface CALayer (CR)
+
+@property (nonatomic) CGFloat left;
+@property (nonatomic) CGFloat top;
+@property (nonatomic) CGFloat right;
+@property (nonatomic) CGFloat bottom;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+
+@property (nonatomic) CGPoint origin;
+@property (nonatomic) CGSize size;
+
 @end
 
 #pragma mark - UIColor Enhancements
